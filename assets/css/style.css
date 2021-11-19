@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Optimus';
+    src: url("../fonts/OptimusPrinceps.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Steelfish';
+    src: url("../fonts/steelfish-rg.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: Steelfish
+}
+
+header {
+    background-image: url(../images/forest-background.jfif);
+    background-position: top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+header h1 {
+    font-size: 80px;
+    padding-left: 80px;
+    color: white;
+    font-weight: lighter;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 80px;
+}
+
+header nav ul li a {
+    text-decoration: underline;
+    padding: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+.hero {
+    background-image: url(../images/forest-background.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    opacity: 80%; 
+    
+}
+
+.hero h2 {
+    font-size: 55px;
+    color: white;
+    margin-left: 1300px;
+    padding-top: 150px;
+}
+
