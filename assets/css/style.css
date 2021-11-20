@@ -11,6 +11,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face { 
+    font-family: 'Banner';
+    src : url(../fonts/yorkwhiteletter.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +26,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #d3d3d3;
     font-family: Steelfish
 }
 
@@ -104,11 +112,51 @@ header nav ul li a:hover {
     padding-top: 20px;
 }
 
-.main-work {
+.work-container {
     display: flex;
+    align-items: flex-start;
+    margin-left: 400px;
+}
+
+.work-container h2 {
+    font-size: 80px;
+    width: 10%;
+    margin-top: 20px;
+}
+
+.main-work {
+    height: 400px;
+    width: 800px;
+    margin-top: 20px;
+    padding-left: 80px;
+    position: relative;
 }
 
 .main-work img {
     height: 400px;
-    width: 400px;
+    width: 800px;
+    opacity: 70%;
+    border: darkgreen 6px solid;
+}
+
+.project-title{
+    position: absolute;
+    background: white;
+    color: darkgreen;
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    bottom: 0%;
+    border: 4px solid darkgreen;
+    text-align: center;
+    
+}
+
+.project-title h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.project-title h4 {
+    font-size: 25px;
 }
