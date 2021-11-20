@@ -115,7 +115,7 @@ header nav ul li a:hover {
 .work-container {
     display: flex;
     align-items: flex-start;
-    margin-left: 400px;
+    margin-left: 445px;
 }
 
 .work-container h2 {
@@ -151,7 +151,6 @@ header nav ul li a:hover {
     text-align: center;
     
 }
-
 .project-title h3 {
     font-size: 40px;
     text-align: center;
@@ -159,4 +158,43 @@ header nav ul li a:hover {
 
 .project-title h4 {
     font-size: 25px;
+}
+
+.side-by-side-container {
+    height: 200px;
+    width: 900px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 610px;
+    justify-content: space-between;
+}
+
+.side-by-side-container img {
+    height: 200px;
+    width: 400px;
+    opacity: 70%;
+    border: darkgreen 6px solid;
+}
+
+.project-title-small{
+    position: absolute;
+    background: white;
+    color: darkgreen;
+    padding: 5px;
+    width: 25%;
+    border-radius: 10px;
+    bottom: 0%;
+    border: 4px solid darkgreen;
+    text-align: center;
+    
+}
+
+.project-title-small h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.project-title-small h4 {
+    font-size: 15px;
 }
