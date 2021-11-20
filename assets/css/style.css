@@ -13,6 +13,7 @@
 }
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -20,6 +21,8 @@ body {
     background-color: grey;
     font-family: Steelfish
 }
+
+/* header/nav/hero style start */
 
 header {
     background-image: url(../images/forest-background.jfif);
@@ -29,8 +32,6 @@ header {
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    
-    
 }
 
 header h1 {
@@ -54,6 +55,12 @@ header nav ul li a {
     color: white;
 }
 
+header nav ul li a:hover {
+    background: white;
+    color: darkgreen;
+    border-radius: 15px;
+  }
+
 .hero {
     background-image: url(../images/forest-background.jfif);
     background-size: cover;
@@ -71,3 +78,37 @@ header nav ul li a {
     padding-top: 150px;
 }
 
+/* header/nav/hero style end */
+
+.info-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 400px;
+
+}
+
+.info-container h2 {
+    font-size: 80px;
+    border-right: 6px solid black;
+    height: 300px;
+    width: 10%;
+    text-align: center;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.info-container p {
+    font-size: 30px;
+    width: 60%;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.main-work {
+    display: flex;
+}
+
+.main-work img {
+    height: 400px;
+    width: 400px;
+}
