@@ -90,7 +90,6 @@ header nav ul li a:hover {
     width: 125px;
     margin-left: 80px;
     margin-top: 20px;
-    opacity: 1;
     border-radius: 10px;
 }
 
@@ -246,5 +245,240 @@ footer ul li a:hover {
     background: white;
     border-radius: 20px;
     color: green;
-
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1 {
+        font-size: 40px;
+    }
+    header nav ul li a {
+        padding: 20px;
+        font-size: 30px;
+    }
+    .hero {
+        height: 250px;
+        width: 100%;
+    }
+    .hero h2 {
+        font-size: 35px;
+        margin-left: 500px;
+        padding-top: 120px;
+    }
+    .info-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .info-container h2 {
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    
+    .info-container p {
+        font-size: 25px;
+        width: 50%;
+        margin-left: 180px;
+        margin-top: 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    aside {
+        width: 22%;
+        font-size: 35px;
+        height: 800px;
+    }
+    aside h2 {
+        margin-left: 50px;
+        height: 800px;
+    }
+    .projects {
+        height: 800px;
+    }
+    .main-project {
+        height: 350px;
+        width: 750px;
+        margin-bottom: 0px;
+    }
+    .main-project img {
+        height: 350px;
+        width: 750px;
+    }
+    .small-projects {
+        position: relative;
+        height: 150px;
+        width: 300px;
+        margin: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .small-projects img {
+        height: 150px;
+        width: 300px;
+    }
+    .project-text h3 {
+        font-size: 25px;
+    }
+    .project-text h4 {
+        font-size: 15px;
+    }
+    footer h2 {
+        padding-left: 20px;
+        font-size: 35px;
+    }
+    footer ul {
+        margin-right: 130px;
+    }
+    footer ul li a {
+        padding: 0 45px 0 45px;
+        font-size: 25px;
+    }
+    footer ul li a:hover {
+        background: white;
+        border-radius: 20px;
+        color: green;
+    }
+  }
+  
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    .hero h2 {
+        margin-left: 300px;
+        padding-top: 140px;
+    }
+    .info-container {
+        margin-bottom: 15px;
+    
+    }
+    .info-container h2 {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    
+    .info-container p {
+        font-size: 23px;
+        width: 75%;
+        margin-left: 40px;
+    }
+    aside {
+        font-size: 30px;
+        height: 650px;
+    }
+    aside h2 {
+        height: 650px;
+    }
+    .projects {
+        height: 650px;
+    }
+    .main-project {
+        height: 250px;
+        width: 500px;
+    }
+    .main-project img {
+        height: 250px;
+        width: 500px;
+    }
+    .small-projects {
+        height: 150px;
+        width: 250px;
+    }
+    .small-projects img {
+        height: 150px;
+        width: 250px;
+    }
+    .project-text h3 {
+        font-size: 20px;
+    }
+    .project-text h4 {
+        font-size: 14px;
+    }
+    footer h2 {
+        font-size: 28px;
+        padding-left: 12px;
+    }
+    footer ul {
+        margin-right: 40px;
+    }
+    footer ul li a {
+        padding: 0 40px 0 40px;
+        font-size: 22px;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+        font-size: 25px;
+    }
+    header nav ul li a {
+        font-size: 25px;
+    }
+    .hero h2 {
+        margin-left: 150px;
+        font-size: 30px;
+    }
+    .hero img {
+        margin-top: 44px;
+        height: 150px;
+        width: 90px;
+    }
+    .info-container {
+        margin-bottom: 10px;
+    
+    }
+    .info-container h2 {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    
+    .info-container p {
+        font-size: 22px;
+        margin-left: 30px;
+    }
+    aside {
+        font-size: 20px;
+        margin-left: 0px;
+        height: 500px;
+        width: 20%;
+    }
+    aside h2 {
+        height: 500px;
+    }
+    .projects {
+        height: 500px;
+    }
+    .main-project {
+        height: 175px;
+        width: 400px;
+    }
+    .main-project img {
+        height: 175px;
+        width: 400px;
+    }
+    .small-projects {
+        height: 125px;
+        width: 200px;
+    }
+    .small-projects img {
+        height: 125px;
+        width: 200px;
+    }
+    .project-text h3 {
+        font-size: 19px;
+    }
+    .project-text h4 {
+        font-size: 13px;
+    }
+    footer h2 {
+        font-size: 24px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    footer ul li a {
+        padding: 0 25px 0 25px;
+        font-size: 20px;
+    }
+  }
