@@ -76,14 +76,22 @@ header nav ul li a:hover {
     height: 250px;
     width: 100%;
     opacity: 80%; 
-    
 }
 
 .hero h2 {
     font-size: 55px;
     color: white;
-    margin-left: 1300px;
-    padding-top: 150px;
+    margin-left: 1200px;
+    padding-top: 100px;
+}
+
+.hero img {
+    height: 200px;
+    width: 125px;
+    margin-left: 80px;
+    margin-top: 20px;
+    opacity: 1;
+    border-radius: 10px;
 }
 
 /* header/nav/hero style end */
