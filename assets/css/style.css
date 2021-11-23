@@ -360,7 +360,8 @@ footer ul li a:hover {
     }
     footer h2 {
         font-size: 28px;
-        padding-left: 12px;
+        padding-left: 10px;
+        width: 97%;
     }
     footer ul {
         margin-right: 40px;
@@ -402,13 +403,17 @@ footer ul li a:hover {
         margin-left: 30px;
     }
     aside {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 0px;
         height: 500px;
+        padding: 0px;
         width: 20%;
     }
     aside h2 {
         height: 500px;
+        padding: 0px;
+        margin-left: 38px;
+        padding: 0px;
     }
     .projects {
         height: 500px;
@@ -437,8 +442,9 @@ footer ul li a:hover {
     }
     footer h2 {
         font-size: 24px;
-        padding-left: 0px;
         text-align: center;
+        width: 100%;
+        padding: 10px;
     }
     footer ul li a {
         padding: 0 25px 0 25px;
